@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		263DA96E133149F00029A560 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 263DA96D133149F00029A560 /* UIKit.framework */; };
+		263DA970133149F00029A560 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 263DA96F133149F00029A560 /* Foundation.framework */; };
+		263DA972133149F00029A560 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 263DA971133149F00029A560 /* CoreGraphics.framework */; };
+		263DA978133149F00029A560 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 263DA976133149F00029A560 /* InfoPlist.strings */; };
+		263DA97B133149F00029A560 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 263DA97A133149F00029A560 /* main.m */; };
+		263DA97E133149F00029A560 /* BonjourBrowserAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 263DA97D133149F00029A560 /* BonjourBrowserAppDelegate.m */; };
+		263DA981133149F00029A560 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 263DA97F133149F00029A560 /* MainWindow.xib */; };
+		263DA984133149F00029A560 /* ServiceListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 263DA983133149F00029A560 /* ServiceListViewController.m */; };
+		263DA987133149F00029A560 /* ServiceListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 263DA985133149F00029A560 /* ServiceListViewController.xib */; };
+		26926FD61333FD610087FF93 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26926FD51333FD610087FF93 /* CFNetwork.framework */; };
+		269270BB133539C90087FF93 /* ServiceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 269270B9133539C80087FF93 /* ServiceDetailViewController.m */; };
+		269270BC133539C90087FF93 /* ServiceDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 269270BA133539C80087FF93 /* ServiceDetailViewController.xib */; };
+		269DD9DC1335A6AA0027DA98 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 269DD9DA1335A6AA0027DA98 /* Icon.png */; };
+		269DD9DD1335A6AA0027DA98 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 269DD9DB1335A6AA0027DA98 /* Icon-72.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		263DA969133149F00029A560 /* BonjourBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BonjourBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		263DA96D133149F00029A560 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		263DA96F133149F00029A560 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		263DA971133149F00029A560 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		263DA975133149F00029A560 /* BonjourBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BonjourBrowser-Info.plist"; sourceTree = "<group>"; };
+		263DA977133149F00029A560 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		263DA979133149F00029A560 /* BonjourBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BonjourBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		263DA97A133149F00029A560 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		263DA97C133149F00029A560 /* BonjourBrowserAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BonjourBrowserAppDelegate.h; sourceTree = "<group>"; };
+		263DA97D133149F00029A560 /* BonjourBrowserAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BonjourBrowserAppDelegate.m; sourceTree = "<group>"; };
+		263DA980133149F00029A560 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		263DA982133149F00029A560 /* ServiceListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServiceListViewController.h; sourceTree = "<group>"; };
+		263DA983133149F00029A560 /* ServiceListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServiceListViewController.m; sourceTree = "<group>"; };
+		263DA986133149F00029A560 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ServiceListViewController.xib; sourceTree = "<group>"; };
+		26926FD51333FD610087FF93 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		269270B8133539C80087FF93 /* ServiceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceDetailViewController.h; sourceTree = "<group>"; };
+		269270B9133539C80087FF93 /* ServiceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceDetailViewController.m; sourceTree = "<group>"; };
+		269270BA133539C80087FF93 /* ServiceDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ServiceDetailViewController.xib; sourceTree = "<group>"; };
+		269DD9DA1335A6AA0027DA98 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		269DD9DB1335A6AA0027DA98 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		263DA966133149F00029A560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26926FD61333FD610087FF93 /* CFNetwork.framework in Frameworks */,
+				263DA96E133149F00029A560 /* UIKit.framework in Frameworks */,
+				263DA970133149F00029A560 /* Foundation.framework in Frameworks */,
+				263DA972133149F00029A560 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		263DA95E133149F00029A560 = {
+			isa = PBXGroup;
+			children = (
+				263DA973133149F00029A560 /* BonjourBrowser */,
+				263DA96C133149F00029A560 /* Frameworks */,
+				263DA96A133149F00029A560 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		263DA96A133149F00029A560 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				263DA969133149F00029A560 /* BonjourBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		263DA96C133149F00029A560 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26926FD51333FD610087FF93 /* CFNetwork.framework */,
+				263DA96D133149F00029A560 /* UIKit.framework */,
+				263DA96F133149F00029A560 /* Foundation.framework */,
+				263DA971133149F00029A560 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		263DA973133149F00029A560 /* BonjourBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				263DA97C133149F00029A560 /* BonjourBrowserAppDelegate.h */,
+				263DA97D133149F00029A560 /* BonjourBrowserAppDelegate.m */,
+				263DA97F133149F00029A560 /* MainWindow.xib */,
+				263DA982133149F00029A560 /* ServiceListViewController.h */,
+				263DA983133149F00029A560 /* ServiceListViewController.m */,
+				263DA985133149F00029A560 /* ServiceListViewController.xib */,
+				269270B8133539C80087FF93 /* ServiceDetailViewController.h */,
+				269270B9133539C80087FF93 /* ServiceDetailViewController.m */,
+				269270BA133539C80087FF93 /* ServiceDetailViewController.xib */,
+				263DA974133149F00029A560 /* Supporting Files */,
+			);
+			path = BonjourBrowser;
+			sourceTree = "<group>";
+		};
+		263DA974133149F00029A560 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				269DD9DA1335A6AA0027DA98 /* Icon.png */,
+				269DD9DB1335A6AA0027DA98 /* Icon-72.png */,
+				263DA975133149F00029A560 /* BonjourBrowser-Info.plist */,
+				263DA976133149F00029A560 /* InfoPlist.strings */,
+				263DA979133149F00029A560 /* BonjourBrowser-Prefix.pch */,
+				263DA97A133149F00029A560 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		263DA968133149F00029A560 /* BonjourBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 263DA98A133149F00029A560 /* Build configuration list for PBXNativeTarget "BonjourBrowser" */;
+			buildPhases = (
+				263DA965133149F00029A560 /* Sources */,
+				263DA966133149F00029A560 /* Frameworks */,
+				263DA967133149F00029A560 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BonjourBrowser;
+			productName = BonjourBrowser;
+			productReference = 263DA969133149F00029A560 /* BonjourBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		263DA960133149F00029A560 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Berkshire Software, LLC";
+			};
+			buildConfigurationList = 263DA963133149F00029A560 /* Build configuration list for PBXProject "BonjourBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 263DA95E133149F00029A560;
+			productRefGroup = 263DA96A133149F00029A560 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				263DA968133149F00029A560 /* BonjourBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		263DA967133149F00029A560 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263DA978133149F00029A560 /* InfoPlist.strings in Resources */,
+				263DA981133149F00029A560 /* MainWindow.xib in Resources */,
+				263DA987133149F00029A560 /* ServiceListViewController.xib in Resources */,
+				269270BC133539C90087FF93 /* ServiceDetailViewController.xib in Resources */,
+				269DD9DC1335A6AA0027DA98 /* Icon.png in Resources */,
+				269DD9DD1335A6AA0027DA98 /* Icon-72.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		263DA965133149F00029A560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263DA97B133149F00029A560 /* main.m in Sources */,
+				263DA97E133149F00029A560 /* BonjourBrowserAppDelegate.m in Sources */,
+				263DA984133149F00029A560 /* ServiceListViewController.m in Sources */,
+				269270BB133539C90087FF93 /* ServiceDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		263DA976133149F00029A560 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				263DA977133149F00029A560 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		263DA97F133149F00029A560 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				263DA980133149F00029A560 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		263DA985133149F00029A560 /* ServiceListViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				263DA986133149F00029A560 /* en */,
+			);
+			name = ServiceListViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		263DA988133149F00029A560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		263DA989133149F00029A560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		263DA98B133149F00029A560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BonjourBrowser/BonjourBrowser-Prefix.pch";
+				INFOPLIST_FILE = "BonjourBrowser/BonjourBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		263DA98C133149F00029A560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BonjourBrowser/BonjourBrowser-Prefix.pch";
+				INFOPLIST_FILE = "BonjourBrowser/BonjourBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		263DA963133149F00029A560 /* Build configuration list for PBXProject "BonjourBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				263DA988133149F00029A560 /* Debug */,
+				263DA989133149F00029A560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		263DA98A133149F00029A560 /* Build configuration list for PBXNativeTarget "BonjourBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				263DA98B133149F00029A560 /* Debug */,
+				263DA98C133149F00029A560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 263DA960133149F00029A560 /* Project object */;
+}
